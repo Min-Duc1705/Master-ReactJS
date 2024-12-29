@@ -10,12 +10,15 @@ function App() {
   //     console.log("run my function")
   // }
 
-  const myFunction = () => {
-    console.log("run my function")
+  const MyFunction = () => {
+    return (
+      <div>hỏi dân it</div>
+
+
+    );
   }
 
 
-  myFunction()
 
 
   return (
@@ -29,6 +32,7 @@ function App() {
         </a>
       </div>
       <h1>Hello world</h1>
+      <MyFunction />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
